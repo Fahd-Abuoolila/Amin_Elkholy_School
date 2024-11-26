@@ -1,4 +1,4 @@
-window.onbeforeunload = () => true;
+
 
 // btn up
 let btnup = document.querySelector('.btnup');
