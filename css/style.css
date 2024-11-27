@@ -89,6 +89,7 @@ header > .down{
     align-items: center;
     justify-content: space-between;
 }
+
 .nav-item .dropdown-toggle::after {
     display: none;
 }
@@ -111,6 +112,10 @@ header.active .down img[alt="logo"]{
 
 header.active .down > nav{
     top: -15px;
+}
+
+header > down > div.navbar:nts-child(2){
+    width: 100%;
 }
 
 img[alt="lan"]{
