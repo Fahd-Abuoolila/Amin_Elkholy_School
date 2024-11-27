@@ -114,7 +114,7 @@ header.active .down > nav{
     top: -15px;
 }
 
-header > down > div.navbar:nts-child(2){
+header > .down > div.navbar:nth-child(2){
     width: 100%;
 }
 
@@ -158,6 +158,9 @@ button.navbar-toggler{
     }
     button.navbar-toggler{
         display: block !important;
+    }
+    header > .down > div.navbar:nth-child(2){
+        width: 100%;
     }
 }
 
