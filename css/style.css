@@ -396,7 +396,7 @@ button.navbar-toggler{
 .ads{
     width: 100% !important;
     background: rgba(0, 0, 0, .2);
-    display: none;
+    display: flex;
     flex-wrap: wrap;
 }
 .ads > .carousel{
