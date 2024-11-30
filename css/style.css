@@ -481,10 +481,6 @@ button.navbar-toggler{
     display: block;
 }
 
-#about>center>div.container .mb-5>p>i{
-    color: #005e8d;
-}
-
 @media (min-width: 992px){
     #about{
         background-repeat: no-repeat;
