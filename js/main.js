@@ -1,6 +1,13 @@
-
-
 // btn up
+let front_bar = document.querySelector('.front-bar');
+(function ($) { 
+    window.onload = function(){
+        setTimeout(function () {
+            $('.front-bar').addClass("hide");
+        }, 2000);
+    }
+})(jQuery);
+
 let btnup = document.querySelector('.btnup');
 window.onscroll = function(){
     if(scrollY > 100){
