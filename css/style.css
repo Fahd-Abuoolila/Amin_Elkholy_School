@@ -89,6 +89,9 @@ header > .down{
     align-items: center;
     justify-content: space-between;
 }
+header > .down .navbar-nav{
+    padding: 0 !important;
+}
 
 .nav-item .dropdown-toggle::after {
     display: none;
@@ -126,13 +129,38 @@ img[alt="lan"]{
 header.active .down > .div-logo{
     top: 5px;
 }
-
+header li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header li > h5{
+    margin: 0 !important;
+}
 .hover-special{
     color: #005e8d;
 }
 
 .hover-special:hover{
     color: #28a745;
+}
+.btn-tab{
+    padding: 8px !important;
+    animation: coloring 2s infinite ease-out;
+}
+@keyframes coloring {
+    0% {
+        color: #f00 ;
+        border: dashed #f00; 
+    }
+    50% {
+        color: #005e8d;
+        border: dashed #005e8d; 
+    }
+    100% {
+        color: #f00 ;
+        border: dashed #f00; 
+    }
 }
 
 button.navbar-toggler{
@@ -142,7 +170,7 @@ button.navbar-toggler{
     box-shadow: none !important;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1380px) {
     /* header{
         height: 60px !important;
     } */
@@ -192,7 +220,7 @@ button.navbar-toggler{
     background-color: #e7e7e7;
     width: 260px;
     height: 100vh;
-    padding: 20px 20px 100px 20px;
+    padding: 20px;
     position: fixed;
     top: 0 !important;
     right: -400px;
@@ -364,14 +392,39 @@ button.navbar-toggler{
     height: 45px;
     width: 45px;
 }
+/* front-bar */
+.front-bar{
+    background:#008b2e !important;
+    text-align: center;
+}
+.front-bar.hide{
+    animation: hidding 1s linear;
+    height: 0px ;
+}
 /* ads bar */
+.bigbar{
+    overflow: hidden;
+    position: sticky;
+    width: 100%;
+    z-index: 99;
+    top: 53px;
+}
+@keyframes hidding {
+    0% {
+        height: 30px ;
+    }
+    50% {
+        height: 15px ;
+    }
+    100% {
+        height: 0px ;
+    }
+}
 .bar {
     width: 100%;
     background: radial-gradient(#2165ae, #143d69);
     color: #fff;
     height: 30px;
-    position: sticky;
-    top: 53px;
     z-index: 998;
     font-size: 16px;
     overflow: hidden;
@@ -436,10 +489,10 @@ button.navbar-toggler{
 }
 @media (max-width: 500px) {
     .ads > .carousel {
-        height: 50vh;
+        height: calc(930px/ 2);
     }   
     .ads > .carousel .carousel-item > img {
-        height: 50vh;
+        height: calc(125vh / 2);
         width: 100%;
     }
     .ads > .carousel-2{
@@ -480,8 +533,8 @@ button.navbar-toggler{
     text-align: justify;
     display: block;
 }
-#about>center>div.container .mb-5 > p::before{
-    content: '';
+
+#about>center>div.container .mb-5>p::before{
     display: none;
 }
 
