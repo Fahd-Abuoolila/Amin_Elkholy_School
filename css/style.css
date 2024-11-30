@@ -436,10 +436,10 @@ button.navbar-toggler{
 }
 @media (max-width: 500px) {
     .ads > .carousel {
-        height: calc(930px/ 2);
+        height: 50vh;
     }   
     .ads > .carousel .carousel-item > img {
-        height: calc(125vh / 2);
+        height: 50vh;
         width: 100%;
     }
     .ads > .carousel-2{
