@@ -480,6 +480,10 @@ button.navbar-toggler{
     text-align: justify;
     display: block;
 }
+#about>center>div.container .mb-5 > p::before{
+    content: '';
+    display: none;
+}
 
 @media (min-width: 992px){
     #about{
