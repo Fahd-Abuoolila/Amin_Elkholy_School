@@ -75,6 +75,17 @@ body.of-h{
     background: radial-gradient(#2165ae, #143d69);
     border-radius: 25px;
 }
+/* alert */
+.toast{    
+    position: fixed;
+    top: 120px;
+    right: 0;
+    z-index: 9999;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
 /* header */
 header{
     z-index: 999999999999999;
