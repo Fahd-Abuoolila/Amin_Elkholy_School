@@ -77,7 +77,7 @@ body.of-h{
 }
 /* alert */
 .alert{    
-    position: fixed;
+    position: fixed !important;
     top: 120px;
     right: 0;
     z-index: 9999;
