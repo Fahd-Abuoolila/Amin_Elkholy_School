@@ -492,7 +492,7 @@ button.navbar-toggler{
         height: calc(930px/ 2);
     }   
     .ads > .carousel .carousel-item > img {
-        height: calc(125vh / 2);
+        height: calc(105vh / 2);
         width: 100%;
     }
     .ads > .carousel-2{
