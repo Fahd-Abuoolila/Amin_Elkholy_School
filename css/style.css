@@ -76,7 +76,7 @@ body.of-h{
     border-radius: 25px;
 }
 /* alert */
-.toast{    
+.alert{    
     position: fixed;
     top: 120px;
     right: 0;
