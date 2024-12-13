@@ -23,6 +23,9 @@ btnup.onclick = function(){
         behavior:'smooth'
     });
 }
+document.querySelector('#close_alert').onclick = function(){
+    document.querySelector('.alert').style.display = 'none';
+}
 
 let open = document.querySelector('#open');
 let close = document.querySelector('#close');
