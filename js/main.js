@@ -24,6 +24,7 @@ btnup.onclick = function(){
     });
 }
 document.querySelector('#close_alert').onclick = function(){
+    console.log('fahd');
     document.querySelector('.alert').style.display = 'none';
 }
 
